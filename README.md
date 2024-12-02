@@ -12,3 +12,4 @@ https://github.com/john-smilga/nextjs-course-home-away/tree/main/02-home-away-pr
 ## External packages:
 
 - [Shadcn/ui](https://ui.shadcn.com/) - Beautifully designed components that you can copy and paste into your apps.
+- [react-icons](https://react-icons.github.io/react-icons/) - Include popular icons in your React projects easly with react-icons.

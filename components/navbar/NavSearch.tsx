@@ -1,7 +1,8 @@
-import React from 'react'
+import React from 'react';
+import { Input } from '../ui/input';
 
 export default function NavSearch() {
   return (
-    <div>NavSearch</div>
+    <Input type='text' placeholder='find a property...' className='max-w-xs dark:bg-muted' />
   )
 }

@@ -7,3 +7,8 @@ https://bairesdev.udemy.com/course/mastering-nextjsbuild-an-airbnb-clone-from-sc
 
 Original repository:
 https://github.com/john-smilga/nextjs-course-home-away/tree/main/02-home-away-project
+
+
+## External packages:
+
+- [Shadcn/ui](https://ui.shadcn.com/) - Beautifully designed components that you can copy and paste into your apps.

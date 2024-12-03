@@ -4,6 +4,7 @@ import React from 'react'
 import Image from 'next/image';
 import { formatCurrency } from '@/utils/format';
 import PropertyRating from './PropertyRating';
+import FavoriteToggleButton from './FavoriteToggleButton';
 
 export default function PropertyCard({ property }: { property: PropertyCardProps }) {
   const { name, image, price } = property;
@@ -37,7 +38,7 @@ export default function PropertyCard({ property }: { property: PropertyCardProps
         </div>
       </Link>
       <div className='absolute top-5 right-5 z-5'>
-        {/* favorite toggle button */}
+        <FavoriteToggleButton propertyId={propertyId} />
       </div>
     </article>
   )

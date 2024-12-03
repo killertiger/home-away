@@ -181,7 +181,7 @@ export const createPropertyAction = async (
 
 export const fetchProperties = async ({
   search = "",
-  category = "",
+  category,
 }: {
   search?: string;
   category?: string;

@@ -18,7 +18,7 @@ export default function FormInput(props: FormInputProps) {
             <Input
                 id={name}
                 name={name}
-                type='text'
+                type={type}
                 defaultValue={defaultValue}
                 placeholder={placeholder}
                 required />

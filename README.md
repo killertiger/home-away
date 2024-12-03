@@ -16,6 +16,7 @@ https://github.com/john-smilga/nextjs-course-home-away/tree/main/02-home-away-pr
 - [react-icons](https://react-icons.github.io/react-icons/) - Include popular icons in your React projects easly with react-icons.
 - [zod](https://zod.dev/) - TypeScript-first schema validation with static type inference
 - [prisma](https://www.prisma.io/) - Simplify working and interacting with databases
+- [world-countries](https://www.npmjs.com/package/world-countries) - List of world countries in JSON, CSV, XML and Yaml
 
 ## External dependencies
 

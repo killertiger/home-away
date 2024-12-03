@@ -8,8 +8,9 @@ https://bairesdev.udemy.com/course/mastering-nextjsbuild-an-airbnb-clone-from-sc
 Original repository:
 https://github.com/john-smilga/nextjs-course-home-away/tree/main/02-home-away-project
 
+## References
 
-## External packages:
+### External packages:
 
 - [Shadcn/ui](https://ui.shadcn.com/) - Beautifully designed components that you can copy and paste into your apps.
 - [react-icons](https://react-icons.github.io/react-icons/) - Include popular icons in your React projects easly with react-icons.
@@ -27,3 +28,25 @@ Alternatives to supabase:
 
 ## Recommended Vscode Extensions
 - [Prisma](https://marketplace.visualstudio.com/items?itemName=Prisma.prisma)
+
+
+## Development
+
+### Environment file
+
+#### `.env`
+
+DATABASE_URL="{PRIMA_TRANSACTION_CONNECTION_URL}?pgbouncer=true&connection_limit=1"
+DIRECT_URL="{PRIMA_SESSION_CONNECTION_URL}"
+
+#### Prima
+Running Prisma studio:
+```
+npx prisma studio
+```
+Access http://localhost:5555
+
+Push database changes
+```
+npx prisma db push
+```

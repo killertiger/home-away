@@ -18,6 +18,7 @@ https://github.com/john-smilga/nextjs-course-home-away/tree/main/02-home-away-pr
 - [prisma](https://www.prisma.io/) - Simplify working and interacting with databases
 - [world-countries](https://www.npmjs.com/package/world-countries) - List of world countries in JSON, CSV, XML and Yaml
 - [use-debounce](https://www.npmjs.com/package/use-debounce) - React libraries for debouncing without tears!
+- [react-share](https://www.npmjs.com/package/react-share) - Social media share buttons and share counts for your React apps.
 
 ## External dependencies
 

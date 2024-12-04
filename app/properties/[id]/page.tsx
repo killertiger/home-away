@@ -8,6 +8,7 @@ import ImageContainer from '@/components/properties/ImageContainer';
 import PropertyDetails from '@/components/properties/PropertyDetails';
 import ShareButton from '@/components/properties/ShareButton';
 import UserInfo from '@/components/properties/UserInfo';
+import SubmitReview from '@/components/reviews/SubmitReview';
 import { Separator } from '@/components/ui/separator';
 import { Skeleton } from '@/components/ui/skeleton';
 import { fetchPropertyDetails } from '@/utils/actions'
@@ -18,10 +19,10 @@ import React from 'react'
 const DynamicMap = dynamic(
     () => import('@/components/properties/PropertyMap'),
     {
-      ssr: false,
-      loading: () => <Skeleton className='h-[400px] w-full' />,
+        ssr: false,
+        loading: () => <Skeleton className='h-[400px] w-full' />,
     }
-  );
+);
 
 export default async function PropertyDetailsPage({ params }: { params: { id: string } }) {
     const property = await fetchPropertyDetails(params.id);
@@ -57,12 +58,13 @@ export default async function PropertyDetailsPage({ params }: { params: { id: st
                     <Separator className='mt-4' />
                     <Description description={property.description} />
                     <Amenities amenities={property.amenities} />
-                    <DynamicMap countryCode={property.country}/>
+                    <DynamicMap countryCode={property.country} />
                 </div>
                 <div className='lg:col-span-4 flex flex-col items-center'>
                     <BookingCalendar />
                 </div>
             </section>
+            <SubmitReview propertyId={property.id} />
         </section>
     )
 }

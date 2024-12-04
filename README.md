@@ -17,6 +17,7 @@ https://github.com/john-smilga/nextjs-course-home-away/tree/main/02-home-away-pr
 - [zod](https://zod.dev/) - TypeScript-first schema validation with static type inference
 - [prisma](https://www.prisma.io/) - Simplify working and interacting with databases
 - [world-countries](https://www.npmjs.com/package/world-countries) - List of world countries in JSON, CSV, XML and Yaml
+- [use-debounce](https://www.npmjs.com/package/use-debounce) - React libraries for debouncing without tears!
 
 ## External dependencies
 

@@ -19,6 +19,6 @@ export default function PropertyRating({
 
   return <span className={className}>
     <FaStar className='w-3 h-3' />
-    {rating} {count}
+    {rating} {countValue}
   </span>
 }

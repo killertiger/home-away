@@ -1,8 +1,6 @@
-import React from 'react'
 import { Label } from '../ui/label';
-import { Select, SelectItem, SelectTrigger } from '../ui/select';
+import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '../ui/select';
 import { categories } from '@/utils/categories';
-import { SelectContent, SelectValue } from '@radix-ui/react-select';
 
 const name = 'category';
 

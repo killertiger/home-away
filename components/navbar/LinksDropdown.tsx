@@ -1,6 +1,5 @@
 import React from 'react';
-import { DropdownMenu, DropdownMenuItem } from '../ui/dropdown-menu';
-import { DropdownMenuContent, DropdownMenuSeparator, DropdownMenuTrigger } from '@radix-ui/react-dropdown-menu';
+import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuSeparator, DropdownMenuTrigger } from '../ui/dropdown-menu';
 import { Button } from '../ui/button';
 import { LuAlignLeft } from 'react-icons/lu';
 import UserIcon from './UserIcon';

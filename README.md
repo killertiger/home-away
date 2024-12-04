@@ -20,6 +20,7 @@ https://github.com/john-smilga/nextjs-course-home-away/tree/main/02-home-away-pr
 - [use-debounce](https://www.npmjs.com/package/use-debounce) - React libraries for debouncing without tears!
 - [react-share](https://www.npmjs.com/package/react-share) - Social media share buttons and share counts for your React apps.
 - [Leaflet](https://leafletjs.com/) - JavaScript library for mobile-friendly interactive maps
+- [Zustand](https://zustand.docs.pmnd.rs/getting-started/introduction) - A small, fast, and scalable bearbones state management solution.
 
 ## External dependencies
 

@@ -1,7 +1,7 @@
 'use client';
 
 import { actionFunction } from "@/utils/types";
-import React, { use, useState } from "react";
+import React, { useState } from "react";
 import { LuUser2 } from "react-icons/lu";
 import { Button } from "../ui/button";
 import Image from 'next/image';

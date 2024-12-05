@@ -27,10 +27,12 @@ https://github.com/john-smilga/nextjs-course-home-away/tree/main/02-home-away-pr
 
 - [clerk](https://clerk.com/) - The most comprehensive User Management Platform
 - [supabase](https://supabase.com/) - Supabase is an open source Firebase alternative.
+- [stripe](https://stripe.com/) - Payment gateway
 Alternatives to supabase:
 - [render](https://render.com/)
 - [planetscale](https://planetscale.com/) - The database platform built for scale
 - [MongoDB](https://www.mongodb.com/) - Database. Deploy a multi-cloud database.
+
 
 ## Recommended Vscode Extensions
 - [Prisma](https://marketplace.visualstudio.com/items?itemName=Prisma.prisma)

@@ -1,7 +1,7 @@
 import Stripe from "stripe";
 const stripe = new Stripe(process.env.STRIPE_SECRET_KEY as string);
 import db from "@/utils/db";
-import { NextRequest, NextResponse } from "next/server";
+import { NextRequest } from "next/server";
 import { formatDate } from "@/utils/format";
 
 export const POST = async (req: NextRequest) => {

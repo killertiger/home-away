@@ -21,6 +21,7 @@ https://github.com/john-smilga/nextjs-course-home-away/tree/main/02-home-away-pr
 - [react-share](https://www.npmjs.com/package/react-share) - Social media share buttons and share counts for your React apps.
 - [Leaflet](https://leafletjs.com/) - JavaScript library for mobile-friendly interactive maps
 - [Zustand](https://zustand.docs.pmnd.rs/getting-started/introduction) - A small, fast, and scalable bearbones state management solution.
+- [recharts](https://recharts.org/) - A composable charting library built on React components
 
 ## External dependencies
 

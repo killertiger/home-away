@@ -4,7 +4,7 @@ import db from "@/utils/db";
 import { NextRequest, NextResponse } from "next/server";
 import { formatDate } from "@/utils/format";
 
-export const POST = async (req: NextRequest, res: NextResponse) => {
+export const POST = async (req: NextRequest) => {
   const requestHeaders = new Headers(req.headers);
   const origin = requestHeaders.get("origin");
   const { bookingId } = await req.json();

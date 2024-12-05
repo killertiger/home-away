@@ -4,7 +4,15 @@ import React, { useState } from 'react'
 import { Checkbox } from '../ui/checkbox';
 
 export default function AmenitiesInput({ defaultValue }: { defaultValue?: Amenity[] }) {
-    const [selectedAmenities, setSelectedAmenities] = useState<Amenity[]>(defaultValue || amenities);
+    const amenitiesWithIcon = defaultValue?.map(({ name, selected }) => {
+        return {
+            name,
+            selected,
+            icon: amenities.find((amenity) => amenity.name === name)!.icon
+        }
+    });
+
+    const [selectedAmenities, setSelectedAmenities] = useState<Amenity[]>(amenitiesWithIcon || amenities);
 
     const handleChange = (amenity: Amenity) => {
         setSelectedAmenities((prev) => {

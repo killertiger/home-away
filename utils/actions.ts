@@ -588,7 +588,7 @@ export const fetchRentalDetails = async (propertyId: string) => {
 };
 
 export const updatePropertyAction = async (
-  prevState,
+  prevState: any,
   formData: FormData
 ): Promise<{ message: string }> => {
   const user = await getAuthUser();
